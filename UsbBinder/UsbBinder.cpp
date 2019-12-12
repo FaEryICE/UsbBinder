@@ -392,7 +392,7 @@ ULONG EnumDispacthDevInterface(LPGUID lpGuid, PFN_EnumDevInterfaceNotify Notify,
             break;
         }
 
-        BOOL bGetDetail = SetupDiGetInterfaceDeviceDetailA(
+        bGetDetail = SetupDiGetInterfaceDeviceDetailA(
             hDevInfoSet,
             &ifdata,
             NULL,
