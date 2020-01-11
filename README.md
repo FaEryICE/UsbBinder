@@ -1,2 +1,2 @@
 # UsbBinder
-Binding usb device in windows
+Collecting Usb devices' features 
